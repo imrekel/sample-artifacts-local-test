@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>compileBitcode</key>
+		<false/>
+		<key>method</key>
+		<string>development</string>
+		<key>provisioningProfiles</key>
+		<dict>
+			<key>bitfall.iOS-Sample</key>
+			<string>iOS Sample_dev</string>
+		</dict>
+		<key>signingCertificate</key>
+		<string>iPhone Developer: Bitrise Bot (VV2J4SV8V4)</string>
+		<key>teamID</key>
+		<string>72SA8V3WYL</string>
+	</dict>
+</plist>
