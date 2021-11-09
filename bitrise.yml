@@ -7,6 +7,14 @@ trigger_map:
   workflow: primary
 - pull_request_source_branch: "*"
   workflow: primary
+pipelines:
+  primary:
+    stages:
+    - stage-1: {}
+stages:
+  stage-1:
+    workflows:
+    - primary: {}
 workflows:
   primary:
     steps:
